@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G31" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="WHCategory" representedClassName="WHCategory" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sale" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WHSale" inverseName="category" inverseEntity="WHSale" syncable="YES"/>
+    </entity>
+    <entity name="WHRegion" representedClassName="WHRegion" syncable="YES">
+        <attribute name="regionName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sale" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WHSale" inverseName="region" inverseEntity="WHSale" syncable="YES"/>
+    </entity>
+    <entity name="WHSale" representedClassName="WHSale" syncable="YES">
+        <attribute name="recordDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="soldArea" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="soldCount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WHCategory" inverseName="sale" inverseEntity="WHCategory" syncable="YES"/>
+        <relationship name="region" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WHRegion" inverseName="sale" inverseEntity="WHRegion" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="WHCategory" positionX="-54" positionY="9" width="128" height="75"/>
+        <element name="WHRegion" positionX="-468" positionY="-6" width="128" height="75"/>
+        <element name="WHSale" positionX="-297" positionY="-303" width="128" height="120"/>
+    </elements>
+</model>
