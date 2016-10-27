@@ -8,6 +8,7 @@
 ![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot01.png)
 
 
+![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot02.png)
 
 
 ##使用方法
