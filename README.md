@@ -5,10 +5,10 @@
 直观的显示武汉房屋成交情况
 
 
-![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot01.png)
+![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot01.png =250x)
 
 
-![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot02.png)
+![image](https://raw.githubusercontent.com/nextsun/WHHouseInfo/master/Screenshots/ScreenShot02.png =250x)
 
 
 ##使用方法
